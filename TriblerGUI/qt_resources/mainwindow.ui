@@ -921,7 +921,7 @@ color: white;
           </widget>
          </item>
          <item>
-          <widget class="QPushButton" name="left_menu_button_visualization">
+          <widget class="QPushButton" name="left_menu_button_trust_display">
            <property name="minimumSize">
             <size>
              <width>0</width>
@@ -7818,7 +7818,7 @@ QTabBar::tab:selected {
                        <x>0</x>
                        <y>0</y>
                        <width>653</width>
-                       <height>257</height>
+                       <height>267</height>
                       </rect>
                      </property>
                      <layout class="QFormLayout" name="formLayout_4">
@@ -9671,22 +9671,6 @@ border: none;
    </hints>
   </connection>
   <connection>
-   <sender>trust_button</sender>
-   <signal>clicked()</signal>
-   <receiver>MainWindow</receiver>
-   <slot>on_trust_button_click()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>757</x>
-     <y>24</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>427</x>
-     <y>327</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
    <sender>left_menu_button_search</sender>
    <signal>clicked()</signal>
    <receiver>MainWindow</receiver>
@@ -9695,6 +9679,22 @@ border: none;
     <hint type="sourcelabel">
      <x>94</x>
      <y>111</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>427</x>
+     <y>327</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>left_menu_button_trust_display</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>clicked_menu_button_trust()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>96</x>
+     <y>360</y>
     </hint>
     <hint type="destinationlabel">
      <x>427</x>
