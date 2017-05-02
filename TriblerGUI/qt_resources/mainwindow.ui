@@ -921,6 +921,41 @@ color: white;
           </widget>
          </item>
          <item>
+          <widget class="QPushButton" name="left_menu_button_visualization">
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>26</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>30</height>
+            </size>
+           </property>
+           <property name="cursor">
+            <cursorShape>PointingHandCursor</cursorShape>
+           </property>
+           <property name="focusPolicy">
+            <enum>Qt::NoFocus</enum>
+           </property>
+           <property name="text">
+            <string> Trust Display</string>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>../images/display.png</normaloff>../images/display.png</iconset>
+           </property>
+           <property name="checkable">
+            <bool>true</bool>
+           </property>
+           <property name="flat">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
           <widget class="QWidget" name="left_menu_playlist_container" native="true">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
@@ -7783,7 +7818,7 @@ QTabBar::tab:selected {
                        <x>0</x>
                        <y>0</y>
                        <width>653</width>
-                       <height>280</height>
+                       <height>257</height>
                       </rect>
                      </property>
                      <layout class="QFormLayout" name="formLayout_4">
