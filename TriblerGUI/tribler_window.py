@@ -145,7 +145,6 @@ class TriblerWindow(QMainWindow):
         self.left_menu_button_debug.setHidden(True)
         self.top_menu_button.setHidden(True)
         self.left_menu.setHidden(True)
-        self.trust_button.setHidden(True)
         self.settings_button.setHidden(True)
         self.add_torrent_button.setHidden(True)
         self.top_search_bar.setHidden(True)
@@ -213,7 +212,6 @@ class TriblerWindow(QMainWindow):
     def show_loading_screen(self):
         self.top_menu_button.setHidden(True)
         self.left_menu.setHidden(True)
-        self.trust_button.setHidden(True)
         self.settings_button.setHidden(True)
         self.add_torrent_button.setHidden(True)
         self.top_search_bar.setHidden(True)
@@ -224,7 +222,6 @@ class TriblerWindow(QMainWindow):
 
         self.top_menu_button.setHidden(False)
         self.left_menu.setHidden(False)
-        self.trust_button.setHidden(False)
         self.settings_button.setHidden(False)
         self.add_torrent_button.setHidden(False)
         self.top_search_bar.setHidden(False)

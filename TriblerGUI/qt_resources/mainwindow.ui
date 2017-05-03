@@ -306,42 +306,6 @@ color: black;
         </spacer>
        </item>
        <item>
-        <widget class="QToolButton" name="trust_button">
-         <property name="minimumSize">
-          <size>
-           <width>22</width>
-           <height>22</height>
-          </size>
-         </property>
-         <property name="maximumSize">
-          <size>
-           <width>22</width>
-           <height>22</height>
-          </size>
-         </property>
-         <property name="cursor">
-          <cursorShape>PointingHandCursor</cursorShape>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">border: none;
-background: none;</string>
-         </property>
-         <property name="text">
-          <string/>
-         </property>
-         <property name="icon">
-          <iconset>
-           <normaloff>../images/trust.png</normaloff>../images/trust.png</iconset>
-         </property>
-         <property name="iconSize">
-          <size>
-           <width>20</width>
-           <height>20</height>
-          </size>
-         </property>
-        </widget>
-       </item>
-       <item>
         <spacer name="horizontalSpacer_68">
          <property name="orientation">
           <enum>Qt::Horizontal</enum>
@@ -1364,7 +1328,7 @@ margin: 10px;</string>
           <item>
            <widget class="QStackedWidget" name="edit_channel_stacked_widget">
             <property name="currentIndex">
-             <number>1</number>
+             <number>2</number>
             </property>
             <widget class="QWidget" name="no_channel_intro_page">
              <layout class="QVBoxLayout" name="verticalLayout">
@@ -7818,7 +7782,7 @@ QTabBar::tab:selected {
                        <x>0</x>
                        <y>0</y>
                        <width>653</width>
-                       <height>267</height>
+                       <height>257</height>
                       </rect>
                      </property>
                      <layout class="QFormLayout" name="formLayout_4">
