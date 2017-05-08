@@ -131,7 +131,6 @@ class TriblerWindow(QMainWindow):
         self.loading_page.initialize_loading_page()
         self.discovering_page.initialize_discovering_page()
         self.discovered_page.initialize_discovered_page()
-        self.trust_page.initialize_trust_page()
 
         self.stackedWidget.setCurrentIndex(PAGE_LOADING)
 
@@ -363,7 +362,6 @@ class TriblerWindow(QMainWindow):
     def on_trust_button_click(self):
         self.deselect_all_menu_buttons()
         self.stackedWidget.setCurrentIndex(PAGE_TRUST)
-        self.trust_page.load_trust_statistics()
         self.navigation_stack = []
         self.hide_left_menu_playlist()
 
